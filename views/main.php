@@ -47,6 +47,11 @@
     </div>
 </nav>
    <div class="container">
+       <div class="row mt-3">
+           <div class="col">
+               <?php Messages::display(); ?>
+           </div>
+       </div>
        <div class="row">
            <?php require($view) ?>
        </div>
